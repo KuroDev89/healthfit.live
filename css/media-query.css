@@ -1,0 +1,1342 @@
+/** PRINCIPALES MEDIDAS MEDIA QUERY**/
+
+/*<<<<<<<<<from 360px to 414px>>>>>>>>>>>>>*/
+@media screen and (min-width: 360px) and (max-width: 414px) {
+
+.desktop{
+  display: none;
+}
+
+.mobile{
+  display: block;
+}
+  .logo{
+    width: 7rem;
+   margin: 0.5rem;
+       }
+       
+   
+       .cover{
+       position: absolute;
+       top: 0;
+       left: 0;
+       overflow: hidden;
+       max-width: 100vw;
+       padding: 0;
+       margin:0;
+       height: auto;
+       transform: translate(0,0);
+       z-index: -2;
+       }
+   
+   
+       .health-msg{
+         max-width: 12rem;
+         margin-top: 18%;
+         margin-left: 0;
+       }
+   
+   
+   /*CONTACT SECTION*/
+   
+   .formin{
+     color: #4597d2;
+     text-align: center;
+     margin-top: 35%;
+   margin-bottom: 10%;
+     }
+
+     #Email,#Age,#inputSex,#inputOS{
+      max-width: 100%;
+      margin-left: 4%;
+    }
+   
+     .form-color{
+       background-color: #004A82 ;
+       opacity: 0.9;
+       padding: 1rem;
+       max-width: 100%;
+       font-size: 0.85rem;
+     }
+   
+   
+     .formin p,h4{
+         color: #DFDD3F;
+         font-size: 0.9rem;
+         padding-top: 0.25rem;
+     }
+     
+     .form .form-control {
+     background-color: transparent;
+       border: none;
+       border-bottom: 1px solid #fff;
+       color: #4597d2;
+       font-size: 0.8rem;
+       margin-bottom: 0.75rem;
+       text-align: left;
+       padding: 0;
+
+     }
+     
+     input.form-control::-webkit-input-placeholder {
+       color: #4597d2;
+
+       }
+       
+     .form-control{
+       margin:0 0.5rem;
+       padding: 0;
+     }
+     
+     .escondido {
+       display: none;
+     }
+     
+     form{
+     
+       align-items: center;
+       margin: auto;
+       padding: 0.25;
+     }
+     
+
+     
+     #reCaptchaLogo {
+       z-index: -1;
+     }
+     
+     .button2{
+       width: 120px;
+       height: 40px;
+       font-size: 1rem;
+       font-weight: bold;
+       border: solid #0068B7 1px;
+       color: #DFDD3F;
+       background-color: #0078D1;
+     
+     }
+     
+     .button2:hover{
+   
+       color: #0078D1;
+       background-color: #DFDD3F;
+       border: solid rgb(204, 202, 57) 1px;
+     }
+     
+   
+   /*Bottom Icons*/
+   
+       .white{
+         margin-top: 15%;
+         margin-bottom: 5%;
+         background-color: #fff;
+         max-width: 100%;
+         height: auto;
+       }
+   
+   
+       .white h1,p{
+         text-align: center;
+         color:#6D6E70;
+          padding: 0.25rem;
+       }
+   
+       .white h1{
+         font-weight: bolder;
+         font-size: 2.2rem;
+       }
+   
+       .white .sub{
+         font-size: 2rem;
+       }
+       
+       .bottom-icons{
+   margin: 0;
+   max-width: 100%;
+   
+       }
+   
+       .row.bottom-icons{
+         margin-left: 16%;
+       }
+   
+   
+       .icon{
+   padding:0;
+         width: 8.5rem;
+         margin-top: 5%;
+         margin-bottom: 5%;
+       }
+}
+
+/*<<<<<<<<<415px-478px>>>>>>>>>*/
+@media screen and (min-width: 415px) and (max-width: 478px) {
+  .desktop{
+    display: none;
+  }
+  
+  .mobile{
+    display: block;
+  }
+    .logo{
+      width: 7rem;
+     margin: 0.5rem;
+         }
+         
+     
+         .cover{
+         position: absolute;
+         top: 0;
+         left: 0;
+         overflow: hidden;
+         max-width: 100vw;
+         padding: 0;
+         margin:0;
+         height: auto;
+         transform: translate(0,0);
+         z-index: -2;
+         }
+     
+     
+         .health-msg{
+           max-width: 15rem;
+           margin-top: 18%;
+           margin-left: 0;
+         }
+     
+     
+     /*CONTACT SECTION*/
+     
+     .formin{
+       color: #4597d2;
+       text-align: center;
+       margin-top: 35%;
+     margin-bottom: 10%;
+     
+       }
+     
+       .form-color{
+         background-color: #004A82 ;
+         opacity: 0.9;
+         padding: 1rem;
+         max-width: 100%;
+         font-size: 0.85rem;
+       }
+     
+       #Email,#Age,#inputSex,#inputOS{
+        max-width: 100%;
+        margin-left: 3%;
+      }
+     
+     
+       .formin p,h4{
+           color: #DFDD3F;
+           font-size: 0.9rem;
+           padding-top: 0.25rem;
+       }
+       
+       .form .form-control {
+       background-color: transparent;
+         border: none;
+         border-bottom: 1px solid #fff;
+         color: #4597d2;
+         font-size: 0.8rem;
+         margin-bottom: 0.75rem;
+         text-align: left;
+         padding: 0;
+  
+       }
+       
+       input.form-control::-webkit-input-placeholder {
+         color: #4597d2;
+  
+         }
+         
+       .form-control{
+         margin:0 0.5rem;
+         padding: 0;
+       }
+       
+       .escondido {
+         display: none;
+       }
+       
+       form{
+       
+         align-items: center;
+         margin: auto;
+         padding: 0.25;
+       }
+       
+  
+       
+       #reCaptchaLogo {
+         z-index: -1;
+       }
+       
+       .button2{
+         width: 120px;
+         height: 40px;
+         font-size: 1rem;
+         font-weight: bold;
+         border: solid #0068B7 1px;
+         color: #DFDD3F;
+         background-color: #0078D1;
+       
+       }
+       
+       .button2:hover{
+     
+         color: #0078D1;
+         background-color: #DFDD3F;
+         border: solid rgb(204, 202, 57) 1px;
+       }
+       
+     
+     /*Bottom Icons*/
+     
+         .white{
+           margin-top: 15%;
+           margin-bottom: 5%;
+           background-color: #fff;
+           max-width: 100%;
+           height: auto;
+         }
+     
+     
+         .white h1,p{
+           text-align: center;
+           color:#6D6E70;
+            padding: 0.25rem;
+         }
+     
+         .white h1{
+           font-weight: bolder;
+           font-size: 2.2rem;
+         }
+     
+         .white .sub{
+           font-size: 2rem;
+         }
+         
+         .bottom-icons{
+     margin: 0;
+     max-width: 100%;
+     
+         }
+     
+         .row.bottom-icons{
+           margin-left: 16%;
+         }
+     
+     
+         .icon{
+     padding:0;
+           width: 9.5rem;
+           margin-top: 5%;
+           margin-bottom: 5%;
+         }
+}
+
+/*<<<<<<<<<479px-780px>>>>>>>>>*/
+@media screen and (min-width: 479px) and (max-width: 780px) {
+  .desktop{
+    display: none;
+  }
+  
+  .mobile{
+    display: block;
+  }
+    .logo{
+      width: 7rem;
+     margin: 0.5rem;
+         }
+         
+     
+         .cover{
+         position: absolute;
+         top: 0;
+         left: 0;
+         overflow: hidden;
+         max-width: 100vw;
+         padding: 0;
+         margin:0;
+         height: auto;
+         transform: translate(0,0);
+         z-index: -2;
+         }
+     
+     
+         .health-msg{
+           max-width: 17rem;
+           margin-top: 18%;
+           margin-left: 0;
+         }
+     
+     
+     /*CONTACT SECTION*/
+     
+     .formin{
+       color: #4597d2;
+       text-align: center;
+       margin-top: 30%;
+     margin-bottom: 10%;
+     
+       }
+     
+       .form-color{
+         background-color: #004A82 ;
+         opacity: 0.9;
+         padding: 1rem;
+         max-width: 100%;
+         font-size: 1rem;
+       }
+     
+     
+       .formin p,h4{
+           color: #DFDD3F;
+           font-size: 1rem;
+           padding: 0.5rem;
+       }
+       
+       .form .form-control {
+       background-color: transparent;
+         border: none;
+         border-bottom: 1px solid #fff;
+         color: #4597d2;
+         font-size: 1rem;
+         margin-bottom: 0.75rem;
+         text-align: left;
+         padding: 0;
+  
+       }
+
+       #Email,#Age,#inputSex,#inputOS{
+        max-width: 100%;
+        margin-left: 3%;
+      }
+       
+       input.form-control::-webkit-input-placeholder {
+         color: #4597d2;
+  
+         }
+         
+       .form-control{
+         margin:0 0.5rem;
+         padding: 0;
+       }
+       
+       .escondido {
+         display: none;
+       }
+       
+       form{
+       
+         align-items: center;
+         margin: auto;
+         padding: 0.25;
+       }
+       
+  
+       
+       #reCaptchaLogo {
+         z-index: -1;
+       }
+       
+       .button2{
+         width: 120px;
+         height: 40px;
+         font-size: 1rem;
+         font-weight: bold;
+         border: solid #0068B7 1px;
+         color: #DFDD3F;
+         background-color: #0078D1;
+       
+       }
+       
+       .button2:hover{
+     
+         color: #0078D1;
+         background-color: #DFDD3F;
+         border: solid rgb(204, 202, 57) 1px;
+       }
+       
+     
+     /*Bottom Icons*/
+     
+         .white{
+           margin-top: 15%;
+           margin-bottom: 5%;
+           background-color: #fff;
+           max-width: 100%;
+           height: auto;
+         }
+     
+     
+         .white h1,p{
+           text-align: center;
+           color:#6D6E70;
+            padding: 0.25rem;
+         }
+     
+         .white h1{
+           font-weight: bolder;
+           font-size: 2.2rem;
+         }
+     
+         .white .sub{
+           font-size: 2rem;
+         }
+         
+         .bottom-icons{
+     margin: 0;
+     max-width: 100%;
+     
+         }
+     
+         .row.bottom-icons{
+           margin-left: 16%;
+         }
+     
+     
+         .icon{
+     padding:0;
+           width: 9.5rem;
+           margin-top: 5%;
+           margin-bottom: 5%;
+         }
+}
+
+/*<<<<<<<<<781px-1000>>>>>>>>>*/
+@media screen and (min-width: 781px) and (max-width: 900px) {
+
+  
+  .mobile{
+    display: none;
+  }
+    .logo{
+      width: 7rem;
+     margin: 0.5rem;
+         }
+         
+     
+         .cover{
+         position: absolute;
+         top: 0;
+         left: 0;
+         overflow: hidden;
+         max-width: 100vw;
+         padding: 0;
+         margin:0;
+         height: 100vw;
+         transform: translate(0,0);
+         z-index: -2;
+         object-fit: cover;
+         }
+     
+     
+         .health-msg{
+           max-width: 20rem;
+           transform: translate(0,150%);
+           margin-left: 0;
+           margin-top: 0;
+         }
+     
+     
+     /*CONTACT SECTION*/
+     
+     .formin{
+       color: #4597d2;
+       text-align: center;
+       margin-top: 10%;
+     margin-bottom: 5%;
+     
+       }
+     
+       .form-color{
+         background-color: #004A82 ;
+         opacity: 0.9;
+         padding: 1rem;
+         max-width: 100%;
+         font-size: 0.7rem;
+       }
+     
+       #Email,#Age,#inputSex,#inputOS{
+        max-width: 40%;
+        margin-left: 8%;
+      }
+     
+       .formin p,h4{
+           color: #DFDD3F;
+           font-size: 0.85rem;
+           padding: 0.25rem;
+       }
+       
+       .form .form-control {
+       background-color: transparent;
+         border: none;
+         border-bottom: 1px solid #fff;
+         color: #4597d2;
+         font-size: 0.85rem;
+         margin-bottom: 0.5rem;
+         text-align: left;
+         padding: 0;
+  
+       }
+       
+       input.form-control::-webkit-input-placeholder {
+         color: #4597d2;
+  
+         }
+         
+       .form-control{
+         margin:0 0.5rem;
+         padding: 0;
+       }
+       
+       .escondido {
+         display: none;
+       }
+       
+       form{
+       
+         align-items: center;
+         margin: auto;
+         padding: 0.25;
+       }
+       
+  
+       
+       #reCaptchaLogo {
+         z-index: -1;
+       }
+       
+       .button2{
+         width: 120px;
+         height: 40px;
+         font-size: 1rem;
+         font-weight: bold;
+         border: solid #0068B7 1px;
+         color: #DFDD3F;
+         background-color: #0078D1;
+       
+       }
+       
+       .button2:hover{
+     
+         color: #0078D1;
+         background-color: #DFDD3F;
+         border: solid rgb(204, 202, 57) 1px;
+       }
+       
+     
+     /*Bottom Icons*/
+     
+         .white{
+           margin-top: 15%;
+           margin-bottom: 5%;
+           background-color: #fff;
+           max-width: 100%;
+           height: auto;
+         }
+     
+     
+         .white h1,p{
+           text-align: center;
+           color:#6D6E70;
+            padding: 0.25rem;
+         }
+     
+         .white h1{
+           font-weight: bolder;
+           font-size: 2.2rem;
+         }
+     
+         .white .sub{
+           font-size: 2rem;
+         }
+         
+         .bottom-icons{
+     margin: 0;
+     max-width: 100%;
+     
+         }
+     
+         .row.bottom-icons{
+           margin-left: 0;
+         }
+     
+     
+         .icon{
+        padding:0;
+           width: 9.5rem;
+           margin-top: 5%;
+           margin-bottom: 5%;
+         }
+}
+
+/*<<<<<<<<<901px - 950px>>>>>>>>>*/
+@media screen and (min-width: 901px) and (max-width: 950px) {
+
+  
+  .mobile{
+    display: none;
+  }
+    .logo{
+      width: 7rem;
+     margin: 0.5rem;
+         }
+         
+     
+         .cover{
+         position: absolute;
+         top: 0;
+         left: 0;
+         overflow: hidden;
+         max-width: 100vw;
+         padding: 0;
+         margin:0;
+         height: 80vw;
+         transform: translate(0,0);
+         z-index: -2;
+         object-fit: cover;
+         }
+     
+     
+         .health-msg{
+           max-width: 20rem;
+           transform: translate(0,150%);
+           margin-left: 0;
+           margin-top: 0;
+         }
+     
+     
+     /*CONTACT SECTION*/
+     
+     .formin{
+       color: #4597d2;
+       text-align: center;
+       margin-top: 10%;
+     margin-bottom: 5%;
+     
+       }
+     
+       .form-color{
+         background-color: #004A82 ;
+         opacity: 0.9;
+         padding: 1rem;
+         max-width: 100%;
+         font-size: 1rem;
+       }
+     
+          
+       #Email,#Age,#inputSex,#inputOS{
+        max-width: 40%;
+        margin-left: 7%;
+      }
+
+       .formin p,h4{
+           color: #DFDD3F;
+           font-size: 0.85rem;
+           padding: 0.25rem;
+       }
+       
+       .form .form-control {
+       background-color: transparent;
+         border: none;
+         border-bottom: 1px solid #fff;
+         color: #4597d2;
+         font-size: 0.85rem;
+         margin-bottom: 0.5rem;
+         text-align: left;
+         padding: 0;
+  
+       }
+       
+       input.form-control::-webkit-input-placeholder {
+         color: #4597d2;
+  
+         }
+         
+       .form-control{
+         margin:0 0.5rem;
+         padding: 0;
+       }
+       
+       .escondido {
+         display: none;
+       }
+       
+       form{
+       
+         align-items: center;
+         margin: auto;
+         padding: 0.25;
+       }
+       
+  
+       
+       #reCaptchaLogo {
+         z-index: -1;
+       }
+       
+       .button2{
+         width: 120px;
+         height: 40px;
+         font-size: 1rem;
+         font-weight: bold;
+         border: solid #0068B7 1px;
+         color: #DFDD3F;
+         background-color: #0078D1;
+       
+       }
+       
+       .button2:hover{
+     
+         color: #0078D1;
+         background-color: #DFDD3F;
+         border: solid rgb(204, 202, 57) 1px;
+       }
+       
+     
+     /*Bottom Icons*/
+     
+         .white{
+           margin-top: 10%;
+           margin-bottom: 5%;
+           background-color: #fff;
+           max-width: 100%;
+           height: auto;
+         }
+     
+     
+         .white h1,p{
+           text-align: center;
+           color:#6D6E70;
+            padding: 0.25rem;
+         }
+     
+         .white h1{
+           font-weight: bolder;
+           font-size: 2.2rem;
+         }
+     
+         .white .sub{
+           font-size: 2rem;
+         }
+         
+         .bottom-icons{
+     margin: 0;
+     max-width: 100%;
+     
+         }
+     
+         .row.bottom-icons{
+           margin-left: 0;
+         }
+     
+     
+         .icon{
+        padding:0;
+           width: 9.5rem;
+           margin-top: 5%;
+           margin-bottom: 5%;
+         }
+}
+
+/*<<<<<<<<<951px - 985px>>>>>>>>>*/
+@media screen and (min-width: 951px) and (max-width: 985px) {
+  
+  .mobile{
+    display: none;
+  }
+    .logo{
+      width: 7rem;
+     margin: 0.5rem;
+         }
+         
+     
+         .cover{
+         position: absolute;
+         top: 0;
+         left: 0;
+         overflow: hidden;
+         max-width: 100vw;
+         padding: 0;
+         margin:0;
+         height: 80vw;
+         transform: translate(0,0);
+         z-index: -2;
+         object-fit: cover;
+         }
+     
+     
+         .health-msg{
+           max-width: 20rem;
+           transform: translate(0,150%);
+           margin-left: 0;
+           margin-top: 0;
+         }
+     
+     
+     /*CONTACT SECTION*/
+     
+     .formin{
+       color: #4597d2;
+       text-align: center;
+       margin-top: 10%;
+     margin-bottom: 5%;
+     
+       }
+     
+       .form-color{
+         background-color: #004A82 ;
+         opacity: 0.9;
+         padding: 1rem;
+         max-width: 100%;
+         font-size: 1rem;
+       }
+     
+     
+       .formin p,h4{
+           color: #DFDD3F;
+           font-size: 0.85rem;
+           padding: 0.25rem;
+       }
+       
+       .form .form-control {
+       background-color: transparent;
+         border: none;
+         border-bottom: 1px solid #fff;
+         color: #4597d2;
+         font-size: 0.85rem;
+         margin-bottom: 0.5rem;
+         text-align: left;
+         padding: 0;
+  
+       }
+       
+       input.form-control::-webkit-input-placeholder {
+         color: #4597d2;
+  
+         }
+         
+       .form-control{
+         margin:0 0.5rem;
+         padding: 0;
+       }
+       
+       .escondido {
+         display: none;
+       }
+       
+       form{
+       
+         align-items: center;
+         margin: auto;
+         padding: 0.25;
+       }
+       
+  
+       
+       #reCaptchaLogo {
+         z-index: -1;
+       }
+       
+       .button2{
+         width: 120px;
+         height: 40px;
+         font-size: 1rem;
+         font-weight: bold;
+         border: solid #0068B7 1px;
+         color: #DFDD3F;
+         background-color: #0078D1;
+       
+       }
+       
+       .button2:hover{
+     
+         color: #0078D1;
+         background-color: #DFDD3F;
+         border: solid rgb(204, 202, 57) 1px;
+       }
+       
+     
+     /*Bottom Icons*/
+     
+         .white{
+           margin-top: 10%;
+           margin-bottom: 5%;
+           background-color: #fff;
+           max-width: 100%;
+           height: auto;
+         }
+     
+     
+         .white h1,p{
+           text-align: center;
+           color:#6D6E70;
+            padding: 0.25rem;
+         }
+     
+         .white h1{
+           font-weight: bolder;
+           font-size: 2.2rem;
+         }
+     
+         .white .sub{
+           font-size: 2rem;
+         }
+         
+         .bottom-icons{
+     margin: 0;
+     max-width: 100%;
+     
+         }
+     
+         .row.bottom-icons{
+           margin-left: 0;
+         }
+     
+     
+         .icon{
+        padding:0;
+           width: 9.5rem;
+           margin-top: 5%;
+           margin-bottom: 5%;
+         }
+}
+
+/*<<<<<<<<<986px - 1290px>>>>>>>>>*/
+@media screen and (min-width: 986px) and (max-width: 1290px) {
+  
+  .mobile{
+    display: none;
+  }
+    .logo{
+      width: 7rem;
+     margin: 0.5rem;
+         }
+         
+     
+         .cover{
+         position: absolute;
+         top: 0;
+         left: 0;
+         overflow: hidden;
+         max-width: 100vw;
+         padding: 0;
+         margin:0;
+         height: 80vw;
+         transform: translate(0,0);
+         z-index: -2;
+
+         }
+     
+     
+         .health-msg{
+           max-width: 20rem;
+           transform: translate(0,150%);
+           margin-left: 0;
+           margin-top: 0;
+         }
+     
+     
+     /*CONTACT SECTION*/
+     
+     .formin{
+       color: #4597d2;
+       text-align: center;
+       margin-top: 10%;
+     margin-bottom: 5%;
+     
+       }
+     
+       .form-color{
+         background-color: #004A82 ;
+         opacity: 0.9;
+         padding: 1rem;
+         max-width: 100%;
+         font-size: 1rem;
+       }
+     
+     
+       .formin p,h4{
+           color: #DFDD3F;
+           font-size: 0.85rem;
+           padding: 0.25rem;
+       }
+       
+       .form .form-control {
+       background-color: transparent;
+         border: none;
+         border-bottom: 1px solid #fff;
+         color: #4597d2;
+         font-size: 0.85rem;
+         margin-bottom: 0.5rem;
+         text-align: left;
+         padding: 0;
+  
+       }
+       
+       input.form-control::-webkit-input-placeholder {
+         color: #4597d2;
+  
+         }
+         
+       .form-control{
+         margin:0 0.5rem;
+         padding: 0;
+       }
+       
+       .escondido {
+         display: none;
+       }
+       
+       form{
+       
+         align-items: center;
+         margin: auto;
+         padding: 0.25;
+       }
+       
+  
+       
+       #reCaptchaLogo {
+         z-index: -1;
+       }
+       
+       .button2{
+         width: 120px;
+         height: 40px;
+         font-size: 1rem;
+         font-weight: bold;
+         border: solid #0068B7 1px;
+         color: #DFDD3F;
+         background-color: #0078D1;
+       
+       }
+       
+       .button2:hover{
+     
+         color: #0078D1;
+         background-color: #DFDD3F;
+         border: solid rgb(204, 202, 57) 1px;
+       }
+       
+     
+     /*Bottom Icons*/
+     
+         .white{
+           margin-top: 15%;
+           margin-bottom: 5%;
+           background-color: #fff;
+           max-width: 100%;
+           height: auto;
+         }
+     
+     
+         .white h1,p{
+           text-align: center;
+           color:#6D6E70;
+            padding: 0.25rem;
+         }
+     
+         .white h1{
+           font-weight: bolder;
+           font-size: 2.2rem;
+         }
+     
+         .white .sub{
+           font-size: 2rem;
+         }
+         
+         .bottom-icons{
+     margin: 0;
+     max-width: 100%;
+     
+         }
+     
+         .row.bottom-icons{
+           margin-left: 0;
+         }
+     
+     
+         .icon{
+        padding:0;
+           width: 9.5rem;
+           margin-top: 5%;
+           margin-bottom: 5%;
+         }
+}
+
+/*<<<<<<<<<1400 and more>>>>>>>>>*/
+@media screen and (min-width: 1400px)  {
+  
+  .mobile{
+    display: none;
+  }
+    .logo{
+      width: 7rem;
+     margin: 0.5rem;
+         } 
+         .cover{
+          position: absolute;
+          top: 0;
+          left: 0;
+          overflow: hidden;
+          min-width: 100vw;
+          padding: 0;
+          margin:0;
+          max-height: 860px;
+          transform: translate(0,0);
+          z-index: -2;
+          object-fit: cover;
+          }
+
+         .health-msg{
+           max-width: 30rem;
+           transform: translate(0,120%);
+           margin-left: 0;
+           margin-top: 0;
+         }
+     
+     
+     /*CONTACT SECTION*/
+     
+     .formin{
+       color: #4597d2;
+       text-align: center;
+       margin-top: 10%;
+     margin-bottom: 5%;
+     
+       }
+     
+       .form-color{
+         background-color: #004A82 ;
+         opacity: 0.9;
+         padding: 1rem;
+         max-width: 70%;
+
+         margin-left: 10%;
+       }
+     
+     
+       .formin p{
+           color: #DFDD3F;
+           font-size: 1.1rem;
+           padding: 0.25rem;
+       }
+       
+       .formin h4{
+         font-size: 2rem;
+       }
+       .form .form-control {
+       background-color: transparent;
+         border: none;
+         border-bottom: 1px solid #fff;
+         color: #4597d2;
+         font-size: 1rem;
+         margin-bottom: 0.5rem;
+         text-align: left;
+         padding: 0;
+  
+       }
+       
+       input.form-control::-webkit-input-placeholder {
+         color: #4597d2;
+  
+         }
+         
+       .form-control{
+         margin:0 0.5rem;
+         padding: 0;
+       }
+       
+       .escondido {
+         display: none;
+       }
+       
+       form{
+       
+         align-items: center;
+         margin: auto;
+         padding: 0.25;
+       }
+       
+  
+       
+       #reCaptchaLogo {
+         z-index: -1;
+       }
+       
+       .button2{
+         width: 120px;
+         height: 40px;
+         font-size: 1rem;
+         font-weight: bold;
+         border: solid #0068B7 1px;
+         color: #DFDD3F;
+         background-color: #0078D1;
+       
+       }
+       
+       .button2:hover{
+     
+         color: #0078D1;
+         background-color: #DFDD3F;
+         border: solid rgb(204, 202, 57) 1px;
+       }
+       
+     
+     /*Bottom Icons*/
+     
+         .white{
+           margin-top: 7%;
+           margin-bottom: 5%;
+           background-color: #fff;
+           max-width: 100%;
+           height: auto;
+         }
+     
+     
+         .white h1,p{
+           text-align: center;
+           color:#6D6E70;
+            padding: 0.25rem;
+         }
+     
+         .white h1{
+           font-weight: bolder;
+           font-size: 3rem;
+         }
+     
+         .white .sub{
+           font-size: 3rem;
+         }
+         
+         .bottom-icons{
+     margin: 0;
+     max-width: 70%;
+    ;
+         }
+     
+         .row.bottom-icons{
+          margin-left: 15%
+         }
+     
+     
+         .icon{
+        padding:0;
+           width: 12rem;
+           margin-top: 5%;
+           margin-bottom: 5%;
+         }
+
+         .bottom-paragraph{
+           font-size:1.5rem;
+           padding: 1rem 5rem;
+           margin: 1rem;
+         }
+}
+

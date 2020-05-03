@@ -1,0 +1,190 @@
+/*BODY*/
+*{
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+
+  }
+  body {
+      font-family: 'Roboto', sans-serif;
+      overflow-x: hidden;
+      color: #000;
+      background-color: #fff;
+    }
+
+
+
+    .mobile{
+      display: none;
+    }
+
+
+    .logo{
+ width: 10rem;
+margin: 1rem;
+    }
+    
+
+    .cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    max-width: 100vw;
+    padding: 0;
+    margin:0;
+    height: auto;
+    transform: translate(0,0);
+    z-index: -2;
+    }
+
+
+    .health-msg{
+      max-width: 25rem;
+      margin-top: 35%;
+      margin-left: 20%;
+    }
+
+
+/*CONTACT SECTION*/
+
+.formin{
+  color: #4597d2;
+  text-align: left;
+  margin-top: 5%;
+margin-bottom: 10%;
+  }
+
+  .form-color{
+    background-color: #004A82 ;
+    opacity: 0.9;
+    padding: 1.2rem;
+    max-width: 75%;
+  }
+
+#Email,#Age,#inputSex,#inputOS{
+  max-width: 45%;
+  margin-left: 5%;
+}
+
+
+  .formin p,h4{
+      color: #DFDD3F;
+      font-size: 0.9rem;
+      padding-top: 1rem;
+  }
+  
+  .form .form-control {
+  background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #4597d2;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    text-align: left;
+    border-radius: 0;
+    justify-content: left;
+  }
+  
+  input.form-control::-webkit-input-placeholder {
+    color: #4597d2;
+    }
+    
+  .form-control{
+    margin:0 0.5rem;
+    padding: none;
+  }
+  
+  .escondido {
+    display: none;
+  }
+  
+  form{
+  
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  
+  
+  #reCaptchaLogo {
+    z-index: -1;
+  }
+  
+  .button2{
+    width: 120px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: solid #0068B7 1px;
+    color: #DFDD3F;
+    background-color: #0078D1;
+  
+  }
+  
+  .button2:hover{
+
+    color: #0078D1;
+    background-color: #DFDD3F;
+    border: solid rgb(204, 202, 57) 1px;
+  }
+  
+
+/*Bottom Icons*/
+
+    .white{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      background-color: #fff;
+      max-width: 100%;
+      height: auto;
+    }
+
+
+    .white h1,p{
+      text-align: center;
+      color:#6D6E70;
+    }
+    .line{
+      line-height: 1;
+    }
+
+    .white h1{
+      font-weight: bolder;
+      font-size: 3rem;
+    }
+
+    .white .sub{
+      font-size: 3.4rem;
+      margin-bottom: 2rem;
+    }
+    
+    .bottom-icons{
+margin: 0;
+max-width: 70%;
+
+    }
+
+    .row.bottom-icons{
+      margin-left: 16%;
+    }
+
+
+    .icon{
+padding:0;
+      width: 10rem;
+      margin-top: 10%;
+      margin-bottom: 20%;
+    }
+
+      /*footer*/
+  footer a{
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
+
+  footer a:hover {
+    text-decoration: none;
+  }
